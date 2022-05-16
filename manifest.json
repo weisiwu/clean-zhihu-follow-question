@@ -1,0 +1,20 @@
+{
+    "name": "clean-zhihu-follow-question",
+    "description" : "clean zhihu follow question",
+    "version": "0.1",
+    "author": "2436887475@qq.com",
+    "manifest_version": 2,
+    "permissions": ["storage", "declarativeContent", "activeTab"],
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "assets/popup.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://www.zhihu.com/question/following", "http://www.zhihu.com/question/following"],
+            "js": ["js/background.js"],
+            "css": ["css/notification.css"],
+            "run_at": "document_idle"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "clean-zhihu-follow-question",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "publish": ""
+  },
+  "keywords": ["知乎", "清空", "关注问题"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}

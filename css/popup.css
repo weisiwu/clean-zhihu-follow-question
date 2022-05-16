@@ -1,0 +1,42 @@
+body {
+    width: 250px;
+    height: 100px;
+    padding: 5px;
+}
+
+.info h3 {
+    text-align: center;
+}
+.info p {
+    text-indent: 20px;
+}
+
+.progress {
+    display: none;
+}
+.progress p {
+    text-align: center;
+}
+.progress p span {
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.click-btn {
+    padding: 0px 0px 10px;
+}
+.click-btn p {
+    display: block;
+    height: 36px;
+    width: 80px;
+    color: #0000ff;
+    border-radius: 5%;
+    user-select: none;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 36px;
+    cursor: pointer;
+    border: 1px solid #0000ff;
+    font-weight: bold;
+}
